@@ -10,6 +10,7 @@ background-size: cover;
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    margin: 8px;
     
 }
 
@@ -57,4 +58,12 @@ footer {
 
 .nav-list :hover{
     background-color: #ffb879;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
 }
