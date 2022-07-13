@@ -1,9 +1,12 @@
 html {
     background-color: aliceblue;
+    background-image: url("images/mountain-bg.webp");
+    background-size: cover;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
 }
 
 
@@ -14,9 +17,19 @@ img {
     border-radius: 25px;
 }
 
+/*
+img:hover {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scaled(1.15);
+    transform: scale(1.15);
+    
+}
+*/
+
+
 .main p {
     text-align: justify;
-    background-color: white;
+    background-color: rgba(255, 251, 251, 0.336);
     padding: 15px;
     font-size: 20px;
     border-style: none;
@@ -29,3 +42,10 @@ footer {
     bottom: 0;
     left: 5;
 }
+
+img:hover {
+    opacity: 0.5;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​
