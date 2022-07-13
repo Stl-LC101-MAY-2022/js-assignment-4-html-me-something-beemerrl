@@ -1,0 +1,31 @@
+html {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+img {
+    float: left;
+    border-style: solid;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.main p {
+    text-align: justify;
+    background-color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 25px;
+   
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 5;
+}

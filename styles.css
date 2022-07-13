@@ -6,6 +6,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
+/*background borrowed from w3.org*/
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -40,6 +41,7 @@ h1 {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .nav-list img {
@@ -51,4 +53,8 @@ footer {
     position: fixed;
     bottom: 0;
     left: 5;
+}
+
+.nav-list :hover{
+    background-color: #ffb879;
 }
